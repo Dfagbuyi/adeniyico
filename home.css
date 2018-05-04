@@ -1,0 +1,650 @@
+html {
+    font-family: 'Bellefair', serif;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+#mainNav a {
+    color: white;
+    font-family: 'Gruppo', cursive;
+    opacity: 0.7;
+}
+
+#mainNav a:hover {
+    opacity: 1;
+}
+
+#homeLink,
+#aboutLink,
+#portLink {
+    font-size: 1.5em;
+}
+
+#homeLink:hover,
+#aboutLink:hover,
+#portLink:hover {
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+.menuButton {
+    width: 100px;
+    height: 100px;
+    opacity: 0.7;
+}
+
+#portPage {
+    display: none;
+    background: linear-gradient(299deg, #1d1d1d, #515050, #000000);
+    background-size: 200% 200%;
+    background-size: 200% 200%;
+    -webkit-animation: smooth 2s ease;
+    -moz-animation: smooth 2s ease 1;
+    animation: smooth 2s ease 1;
+
+}
+
+#websiteSect {
+    display: none;
+
+
+}
+
+@-webkit-keyframes smooth {
+    0% {
+        background-position: 0% 20%
+    }
+    50% {
+        background-position: 100% 81%
+    }
+    100% {
+        background-position: 0% 20%
+    }
+}
+
+@-moz-keyframes smooth {
+    0% {
+        background-position: 0% 20%
+    }
+    50% {
+        background-position: 100% 81%
+    }
+    100% {
+        background-position: 0% 20%
+    }
+}
+
+@keyframes smooth {
+    0% {
+        background-position: 0% 20%
+    }
+    50% {
+        background-position: 100% 81%
+    }
+    100% {
+        background-position: 0% 20%
+    }
+}
+
+.arrows {
+    width: 60px;
+    height: 72px;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    bottom: 3%;
+}
+
+.webDevelopmentSide {
+    height: 500px;
+}
+
+.portVideo {
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    transition: opacity 0.5s ease;
+
+    opacity: .3;
+}
+
+.portVideo:hover {
+    opacity: .7;
+}
+
+.softWareDevelopment {
+    height: 500px;
+}
+
+.portTitles {
+    opacity: 0.8;
+    font-size: 2em;
+    position: absolute;
+    color: whitesmoke;
+    font-family: 'Gruppo', cursive;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 3;
+    margin-bottom: 0;
+}
+
+
+.arrows path {
+    stroke: #2994D1;
+    fill: transparent;
+    stroke-width: 1px;
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite;
+}
+
+.portHeader {
+    width: 100%;
+    padding: 125px 0 15px;
+    text-align: center;
+    font-family: 'Gruppo', cursive;
+    color: white;
+    font-size: 3em;
+}
+
+.subTitle {
+    text-align: center;
+    font-size: 1em;
+    color: white;
+    font-family: 'Gruppo', cursive;
+    opacity: .5;
+
+}
+
+.portSubtitle {
+    z-index: 3;
+    position: absolute;
+    text-align: center;
+    font-size: .5em;
+    color: white;
+    font-family: 'Gruppo', cursive;
+    opacity: 0;
+}
+
+.portSubtitle:hover {
+    opacity: .8;
+
+}
+
+.portfolio-vid {
+    width: 450px !important;
+    height: auto !important;
+}
+
+.portObject {
+    overflow: hidden;
+    margin: 40px auto;
+    width: 400px;
+    height: 200px;
+    clear: both;
+    border: 3px dashed #ccc;
+}
+
+@keyframes arrow {
+    0% {
+        opacity: 0
+    }
+    40% {
+        opacity: 1
+    }
+    80% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes arrow
+/*Safari and Chrome*/
+
+    {
+    0% {
+        opacity: 0
+    }
+    40% {
+        opacity: 1
+    }
+    80% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+.arrows path.a1 {
+    animation-delay: -1s;
+    -webkit-animation-delay: -1s;
+    /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+    animation-delay: -0.5s;
+    -webkit-animation-delay: -0.5s;
+    /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+    /* Safari 和 Chrome */
+}
+
+.gitHub {
+    clear: both;
+    color: ghostwhite;
+    text-align: center;
+    font-family: 'Bellefair', serif;
+    text-decoration: underline;
+    letter-spacing: 2px;
+
+
+}
+
+body {
+    font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: inherit;
+    color: white;
+    background: linear-gradient(299deg, #1d1d1d, #515050, #000000);
+    background-size: 600% 600%;
+    -webkit-animation: smooth 14s ease 3;
+    -moz-animation: smooth 14s ease 3;
+    animation: smooth 14s ease 3;
+
+}
+
+.para1 {
+    display: none;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    font-family: 'Gruppo', cursive;
+    font-size: 1.3em;
+    color: whitesmoke;
+}
+
+.para2 {
+    display: none;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    font-family: 'Gruppo', cursive;
+    font-size: 1.3em;
+    color: whitesmoke;
+}
+
+.para3 {
+    display: none;
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    font-family: 'Gruppo', cursive;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.para35 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    font-family: 'Gruppo', cursive;
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+
+.para4 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    font-family: 'Gruppo', cursive;
+    margin: 75% auto;
+    font-size: 1em;
+    color: whitesmoke;
+}
+
+.para4 {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation: typing 10s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+.facebook:hover,
+.instagram:hover,
+.linkedIn:hover {
+    border-radius: 100%;
+    fill: whitesmoke;
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25);
+    -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+    transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+    transition: background-color 0.5s, transform 0.5s ease-out;
+    transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+}
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: limegreen;
+    }
+}
+
+.masterHead {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: inherit;
+    color: white;
+
+}
+
+.logoCorner {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 120px;
+    height: 80px;
+    opacity: .4;
+    border-bottom: 5px solid white;
+}
+
+.ADELOGO {
+    left: 15%;
+    width: 250px;
+    height: 250px;
+    display: block;
+    opacity: 0.5;
+    margin: 0 auto;
+    padding-top: 10%;
+}
+
+.logoCorner:hover {
+    opacity: 1;
+}
+
+#aboutTopSection {
+    display: none;
+    margin: auto;
+    padding-top: 150px;
+    height: 100vh;
+    width: 75%;
+
+}
+
+#websiteSect {
+    display: none;
+    margin: auto;
+    padding-top: 150px;
+    height: 100vh;
+    width: 75%;
+}
+
+#aboutSection {
+    background: linear-gradient(299deg, #1d1d1d, #515050, #000000);
+    background-size: 200% 200%;
+    background-size: 200% 200%;
+
+
+}
+
+#about2ndSection {
+    display: none;
+    position: relative;
+    height: 800px;
+    width: 100%;
+    padding: 150px;
+}
+
+.header {
+    font-style: italic;
+    font-family: 'Gruppo', cursive;
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+.About2 {
+    display: none;
+    color: whitesmoke;
+    font-family: 'Gruppo', cursive;
+    font-size: 1.3em;
+    line-height: 2;
+}
+
+#introAbout {
+    color: whitesmoke;
+    font-family: 'Gruppo', cursive;
+    font-size: 1.3em;
+    text-align: center;
+    width: 90%;
+    margin: 10% auto;
+    line-height: 2;
+}
+
+#classSelections {
+    margin: 50px auto auto;
+    text-align: center;
+    font-family: 'Gruppo', cursive;
+    color: whitesmoke;
+    font-size: 2em;
+    opacity: 0.7;
+}
+
+#socialMedia {
+    padding-top: 0px;
+}
+
+.facebook {
+    color: whitesmoke;
+    fill: #3b5999;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: auto;
+}
+
+.instagram {
+    color: whitesmoke;
+    fill: #e4405f;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: auto;
+}
+
+.instagram:hover {
+    background: #e4405f;
+    fill: white;
+}
+
+.linkedIn {
+    fill: #0077B5;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: auto;
+}
+
+.linkedIn:hover {
+    background: #0077B5;
+    fill: white;
+}
+
+.facebook:hover {
+    background: #3b5999;
+    fill: white;
+}
+
+.parallax {
+    display: none;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    min-height: 1000px;
+    background-image: url("IMG_0135.JPG");
+    opacity: 0.7;
+}
+
+.parallax2 {
+    display: none;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    min-height: 1000px;
+    background-image: url("images/IMG_9228.jpg");
+    opacity: 0.5;
+}
+
+#about3rdSection {
+    display: none;
+    position: relative;
+    height: 800px;
+    width: 100%;
+    padding: 150px;
+}
+
+.bottom {
+    font-size: 2em;
+    font-family: 'Gruppo', cursive;
+    opacity: .4;
+    text-decoration: underline;
+    position: absolute;
+    left: 50%;
+    color: white;
+    margin-left: -30px;
+    bottom: 10%;
+}
+
+.bottom:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 501px) {
+    #introAbout {
+        font-size: 2em;
+    }
+
+    .ADELOGO {
+        width: 550px;
+        height: 550px;
+        margin: auto auto;
+
+
+    }
+    .para1 {
+        font-size: 2em;
+        text-align: center;
+    }
+    .para2 {
+        font-size: 2em;
+        text-align: center;
+    }
+    .para3 {
+        font-size: 3em;
+        text-align: center;
+    }
+    .para35 {
+        font-size: 2em;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        top: 50%;
+    }
+    .para4 {
+        font-size: 2.2em;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        top: 60%;
+    }
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+    .parallax2 {
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (min-width: 1251px) {
+    .ADELOGO {
+        position: table;
+        margin: 0 auto;
+        width: 550px;
+        height: 500px;
+    }
+    .para1 {
+        font-size: 3em;
+        left: 15%;
+    }
+    .para2 {
+        font-size: 3em;
+        left: 15%;
+    }
+    .para3 {
+        font-size: 3.5em;
+        left: 15%;
+    }
+    .para35 {
+        font-size: 3em;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        top: 75%;
+    }
+    .para4 {
+        font-size: 1em;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        top: 85%;
+    }
+    #introAbout {
+        font-size: 1.3em;
+    }
+}
